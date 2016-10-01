@@ -1,0 +1,169 @@
+/* line 3, ../compass/sass/style.scss */
+.shadow {
+  -moz-box-shadow: #000 5px 5px 5px;
+  -webkit-box-shadow: #000 5px 5px 5px;
+  box-shadow: #000 5px 5px 5px;
+}
+
+/* Theme Colors */
+/* Font Colors */
+/*
+$primary-color: #81D8D0;
+$secondary-color: #F7FAFA;
+$tertiary-color: #F7FAFA;
+$light-font-color: #F7FAFA;
+$dark-font-color: #309c91;
+*/
+/* Theme Colors */
+/* Font Colors */
+/* Theme Colors */
+/* Font Colors */
+/* line 57, ../compass/sass/style.scss */
+body {
+  background-color: #262431;
+  color: #F7FAFA;
+  text-align: center;
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 65, ../compass/sass/style.scss */
+.navbar {
+  background-color: #AF6C69;
+  border-radius: 0px;
+}
+
+/* line 71, ../compass/sass/style.scss */
+.navbar a {
+  color: #262431;
+}
+
+/* buttons */
+/* line 76, ../compass/sass/style.scss */
+.navbar .navbar-btn
+, form .btn
+, .btn {
+  background-color: #AF6C69;
+  color: #262431;
+  border-radius: 0px;
+  border-style: hidden;
+  border-color: #AF6C69;
+  border-style: solid;
+}
+
+/* line 87, ../compass/sass/style.scss */
+.navbar .navbar-btn:hover
+, form .btn:hover
+, .btn:hover {
+  background-color: #262431;
+  color: #F7FAFA;
+  border-color: #AF6C69;
+  border-style: solid;
+}
+
+/* line 96, ../compass/sass/style.scss */
+.btn:hover
+, .btn:focus
+, .btn:active
+, .btn.active
+, .open .dropdown-toggle.btn {
+  color: #F7FAFA;
+  background-color: #262431;
+  border-color: #AF6C69;
+  border-style: solid;
+}
+
+/* */
+/* line 108, ../compass/sass/style.scss */
+.jumbotron {
+  background-color: #262431;
+}
+
+/* */
+/* line 117, ../compass/sass/style.scss */
+.panel, .well {
+  border-style: hidden;
+  background-color: #262431;
+  border-radius: 0px;
+}
+
+/* line 125, ../compass/sass/style.scss */
+.jumbotron .panel-heading {
+  background-color: #AF6C69;
+  color: #262431;
+  border-radius: 0px;
+  border-bottom-style: hidden;
+}
+
+/* line 131, ../compass/sass/style.scss */
+#myusername,
+#mypassword {
+  background-color: #AF6C69;
+  color: #262431;
+  border-style: hidden;
+  border-radius: 0px;
+}
+
+/* The Scss */
+/* line 140, ../compass/sass/style.scss */
+[type=text]::-moz-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+/* line 141, ../compass/sass/style.scss */
+[type=text]::-webkit-input-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+/* line 142, ../compass/sass/style.scss */
+[type=text]:-ms-input-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+
+/* line 140, ../compass/sass/style.scss */
+[type=password]::-moz-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+/* line 141, ../compass/sass/style.scss */
+[type=password]::-webkit-input-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+/* line 142, ../compass/sass/style.scss */
+[type=password]:-ms-input-placeholder {
+  font-style: italic;
+  color: #262431;
+}
+
+/* top left icon */
+/* line 164, ../compass/sass/style.scss */
+.navbar .navbar-brand {
+  color: #262431;
+}
+
+/* line 168, ../compass/sass/style.scss */
+.badge {
+  background-color: #262431;
+  color: #AF6C69;
+}
+
+/* line 173, ../compass/sass/style.scss */
+.table, tr, td {
+  border-style: hidden;
+  background-color: #f2f2f2;
+  color: #F7FAFA;
+}
+
+/* line 179, ../compass/sass/style.scss */
+footer {
+  background-color: #AF6C69;
+  color: #262431;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 30px;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+}

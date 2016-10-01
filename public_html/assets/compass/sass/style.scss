@@ -1,0 +1,192 @@
+@import 'compass/css3';
+
+.shadow {
+    @include box-shadow(#000 5px 5px 5px);
+}
+
+
+
+/* Theme Colors */
+//$primary-color: #81D8D0;
+//$secondary-color: #3cc3b6;
+//$tertiary-color: #F7FAFA;
+
+/* Font Colors */
+//$light-font-color: #F7FAFA;
+//$dark-font-color: #2a897f;
+
+
+/*
+$primary-color: #81D8D0;
+$secondary-color: #F7FAFA;
+$tertiary-color: #F7FAFA;
+$light-font-color: #F7FAFA;
+$dark-font-color: #309c91;
+*/
+
+/* Theme Colors */
+//$primary-color: #cc3300;
+//$secondary-color: #b32d00;
+//$tertiary-color: #F7FAFA;
+
+/* Font Colors */
+//$light-font-color: #F7FAFA;
+//$dark-font-color: #b32d00;
+
+$color1:#045071;
+$color2:#FE9B91;
+/* Theme Colors */
+$primary-color: #AF6C69;
+$secondary-color: #262431;
+$tertiary-color: #262431;
+
+/* Font Colors */
+$light-font-color: #262431;
+$dark-font-color: #F7FAFA;
+
+// main theme
+//3366FF blue
+//F7FAFA white
+//0033cc dark blue for dark font
+
+//E8BF56
+//E4844A
+
+
+
+body {
+	background-color: $secondary-color; 
+	color: $dark-font-color;
+	text-align: center;
+	position: relative;
+  	min-height: 100%;
+}
+
+.navbar {
+	background-color: $primary-color;
+	border-radius: 0px;
+	//@include box-shadow(0px 1px 1px #888888);
+}
+
+.navbar a {
+	color: $light-font-color;
+}
+
+/* buttons */
+.navbar .navbar-btn
+, form .btn
+, .btn {
+	background-color:$primary-color;
+	color:$light-font-color;
+	border-radius: 0px;
+	border-style: hidden;
+	border-color: $primary-color;
+	border-style: solid;
+}
+
+.navbar .navbar-btn:hover
+, form .btn:hover
+, .btn:hover { 
+	background-color:$tertiary-color;
+	color:$dark-font-color;
+	border-color: $primary-color;
+	border-style: solid;
+}
+
+.btn:hover
+, .btn:focus
+, .btn:active
+, .btn.active 
+, .open .dropdown-toggle.btn {
+  	color: $dark-font-color;
+  	background-color: $tertiary-color;
+  	border-color: $primary-color;
+	border-style: solid;
+}
+
+/* */
+.jumbotron {
+	background-color: $tertiary-color;
+}
+
+/* */
+.jumbotron h1  {
+	//@include text-shadow(1px 1px 1px #888888);
+}
+
+.panel, .well{
+	border-style: hidden;
+	background-color: $secondary-color;
+	
+	//@include box-shadow(0px 1px 1px #888888);
+	border-radius: 0px;
+}
+
+.jumbotron .panel-heading {
+	background-color: $primary-color;
+	color: $light-font-color;
+	border-radius: 0px;
+	border-bottom-style: hidden; //removes bar under title
+}
+#myusername,
+#mypassword {
+	background-color:$primary-color;
+	color: $tertiary-color;
+	border-style: hidden;
+	border-radius: 0px;
+}
+
+@mixin placeholder {
+&::-moz-placeholder { @content }
+&::-webkit-input-placeholder { @content }
+&:-ms-input-placeholder { @content }
+}
+
+@mixin placeholder-style {
+font-style: italic;
+color: $light-font-color;
+}
+
+/* The Scss */
+[type=text] {
+@include placeholder {
+@include placeholder-style;
+}
+}
+
+[type=password] {
+@include placeholder {
+@include placeholder-style;
+}
+}
+
+/* top left icon */
+.navbar .navbar-brand {
+	color: $light-font-color;
+}
+
+.badge {
+	background-color: $light-font-color;
+	color: $primary-color; 
+}
+
+.table, tr, td {
+	border-style: hidden;
+	background-color: #f2f2f2;
+	color: $dark-font-color;
+}
+
+footer {
+	background-color: $primary-color;
+	color: $light-font-color;
+	
+	
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+	
+	padding-top: 30px;
+  	/* Set the fixed height of the footer here */
+  	height: 80px;
+	
+}

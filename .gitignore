@@ -1,0 +1,9 @@
+public_html/assets/compass/.sass-cache
+public_html/assets/js/vendor/*
+chat/*
+resources/config.php
+resources/backups/*
+resources/library/vendor/*
+js/vendor
+things to fix.txt
+TODO.docx
